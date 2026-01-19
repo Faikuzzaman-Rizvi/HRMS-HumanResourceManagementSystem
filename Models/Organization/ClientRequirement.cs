@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Organization
 {
-    public class ClientRequirement
+    public class ClientRequirement : BaseEntity
     {
         public int Id { get; set; }
         public int ClientId { get; set; }

@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.EmployeeDetails
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.EmployeeDetails
 {
-    public class Designation
+    public class Designation : BaseEntity
     {
         public int Id { get; set; }
         public string Title { get; set; }

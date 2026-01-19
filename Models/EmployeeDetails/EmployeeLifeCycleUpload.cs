@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.EmployeeDetails
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.EmployeeDetails
 {
-    public class EmployeeLifeCycleUpload
+    public class EmployeeLifeCycleUpload : BaseEntity
     {
         public int Id { get; set; }
         public string FileName { get; set; }

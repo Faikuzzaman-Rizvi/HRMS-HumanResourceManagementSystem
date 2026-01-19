@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Organization
 {
-    public class Company
+    public class Company : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

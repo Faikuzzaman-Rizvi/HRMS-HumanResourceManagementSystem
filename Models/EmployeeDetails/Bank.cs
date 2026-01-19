@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.EmployeeDetails
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.EmployeeDetails
 {
-    public class Bank
+    public class Bank : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

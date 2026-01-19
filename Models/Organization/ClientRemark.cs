@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Organization
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Organization
 {
-    public class ClientRemark
+    public class ClientRemark : BaseEntity
     {
         public int Id { get; set; }
         public int ClientId { get; set; }

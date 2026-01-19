@@ -1,8 +1,9 @@
-﻿using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+﻿using HRMS.Models.Common;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace HRMS.Models.Organization
 {
-    public class Client
+    public class Client : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

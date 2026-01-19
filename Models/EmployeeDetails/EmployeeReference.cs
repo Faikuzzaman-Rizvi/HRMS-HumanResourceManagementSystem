@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.EmployeeDetails
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.EmployeeDetails
 {
-    public class EmployeeReference
+    public class EmployeeReference : BaseEntity
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }

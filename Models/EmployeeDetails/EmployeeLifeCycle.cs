@@ -1,9 +1,10 @@
-﻿using HRMS.Models.Organization;
+﻿using HRMS.Models.Common;
+using HRMS.Models.Organization;
 using System.Diagnostics;
 
 namespace HRMS.Models.EmployeeDetails
 {
-    public class EmployeeLifeCycle
+    public class EmployeeLifeCycle : BaseEntity
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }

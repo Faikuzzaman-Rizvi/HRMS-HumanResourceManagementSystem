@@ -1026,10 +1026,7 @@ namespace HRMS.Data
                 .HasForeignKey(eb => eb.BankAccountId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            
             // Composite Keys Configuration
-            
-
             modelBuilder.Entity<UserRole>()
                 .HasKey(ur => new { ur.UserId, ur.RoleId });
 
@@ -1038,8 +1035,6 @@ namespace HRMS.Data
 
             
             // Indexes for Performance
-            
-
             modelBuilder.Entity<Employee>()
                 .HasIndex(e => e.EmployeeCode)
                 .IsUnique();

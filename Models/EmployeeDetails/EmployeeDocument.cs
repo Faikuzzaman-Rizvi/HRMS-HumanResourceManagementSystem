@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.EmployeeDetails
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.EmployeeDetails
 {
-    public class EmployeeDocument
+    public class EmployeeDocument : BaseEntity
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }
