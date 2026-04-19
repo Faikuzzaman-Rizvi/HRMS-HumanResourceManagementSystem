@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Payroll
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Payroll
 {
-    public class TaxSlab
+    public class TaxSlab : BaseEntity
     {
         public int Id { get; set; }
         public int FiscalYear { get; set; }

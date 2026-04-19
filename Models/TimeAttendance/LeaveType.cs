@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.TimeAttendance
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.TimeAttendance
 {
-    public class LeaveType
+    public class LeaveType : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

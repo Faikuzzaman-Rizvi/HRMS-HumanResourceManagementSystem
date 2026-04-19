@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.TimeAttendance
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.TimeAttendance
 {
-    public class LeaveYear
+    public class LeaveYear : BaseEntity
     {
         public int Id { get; set; }
         public int Year { get; set; }

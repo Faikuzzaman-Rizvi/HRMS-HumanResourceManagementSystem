@@ -1,8 +1,9 @@
-﻿using HRMS.Models.Organization;
+﻿using HRMS.Models.Common;
+using HRMS.Models.Organization;
 
 namespace HRMS.Models.TimeAttendance
 {
-    public class Holiday
+    public class Holiday : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

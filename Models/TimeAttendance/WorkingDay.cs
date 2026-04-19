@@ -1,8 +1,9 @@
-﻿using HRMS.Models.Organization;
+﻿using HRMS.Models.Common;
+using HRMS.Models.Organization;
 
 namespace HRMS.Models.TimeAttendance
 {
-    public class WorkingDay
+    public class WorkingDay : BaseEntity
     {
         public int Id { get; set; }
         public int? LocationId { get; set; }

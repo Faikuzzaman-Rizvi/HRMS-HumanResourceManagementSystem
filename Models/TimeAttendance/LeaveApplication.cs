@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.TimeAttendance
 {
-    public class LeaveApplication
+    public class LeaveApplication : BaseEntity
     {
         public int Id { get; set; }
         public string LeaveCode { get; set; }

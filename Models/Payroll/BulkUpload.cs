@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Payroll
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Payroll
 {
-    public class BulkUpload
+    public class BulkUpload : BaseEntity
     {
         public int Id { get; set; }
         public string UploadType { get; set; } // Benefits, Deductions, LifeCycle

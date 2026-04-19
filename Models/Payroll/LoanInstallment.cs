@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Payroll
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Payroll
 {
-    public class LoanInstallment
+    public class LoanInstallment : BaseEntity
     {
         public int Id { get; set; }
         public int LoanId { get; set; }

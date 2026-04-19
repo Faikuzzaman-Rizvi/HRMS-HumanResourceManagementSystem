@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Payroll
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Payroll
 {
-    public class SalaryMonth
+    public class SalaryMonth : BaseEntity
     {
         public int Id { get; set; }
         public int Month { get; set; }

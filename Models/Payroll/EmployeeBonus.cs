@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Payroll
 {
-    public class EmployeeBonus
+    public class EmployeeBonus : BaseEntity
     {
         public int Id { get; set; }
         public int BonusProcessId { get; set; }

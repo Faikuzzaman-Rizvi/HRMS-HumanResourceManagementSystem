@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.TimeAttendance
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.TimeAttendance
 {
-    public class AttendanceProcess
+    public class AttendanceProcess : BaseEntity
     {
         public int Id { get; set; }
         public int Month { get; set; }

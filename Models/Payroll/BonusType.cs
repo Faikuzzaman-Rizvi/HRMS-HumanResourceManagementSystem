@@ -1,6 +1,8 @@
-﻿namespace HRMS.Models.Payroll
+﻿using HRMS.Models.Common;
+
+namespace HRMS.Models.Payroll
 {
-    public class BonusType
+    public class BonusType : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

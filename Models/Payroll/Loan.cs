@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Payroll
 {
-    public class Loan
+    public class Loan : BaseEntity
     {
         public int Id { get; set; }
         public string LoanCode { get; set; }

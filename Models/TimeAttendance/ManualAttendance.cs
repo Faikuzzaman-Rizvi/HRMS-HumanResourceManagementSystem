@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.TimeAttendance
 {
-    public class ManualAttendance
+    public class ManualAttendance : BaseEntity
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }

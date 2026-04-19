@@ -1,9 +1,10 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 using HRMS.Models.Organization;
 
 namespace HRMS.Models.TimeAttendance
 {
-    public class LeaveRule
+    public class LeaveRule : BaseEntity
     {
         public int Id { get; set; }
         public int LeaveTypeId { get; set; }

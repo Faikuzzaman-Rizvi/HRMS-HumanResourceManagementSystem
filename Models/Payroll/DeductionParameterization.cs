@@ -1,9 +1,10 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 using HRMS.Models.Organization;
 
 namespace HRMS.Models.Payroll
 {
-    public class DeductionParameterization
+    public class DeductionParameterization : BaseEntity
     {
         public int Id { get; set; }
         public int DeductionTypeId { get; set; }

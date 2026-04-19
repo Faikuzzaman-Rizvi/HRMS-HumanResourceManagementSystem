@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Payroll
 {
-    public class EmployeeTaxInfo
+    public class EmployeeTaxInfo : BaseEntity
     {
         public int Id { get; set; }
         public int EmployeeId { get; set; }

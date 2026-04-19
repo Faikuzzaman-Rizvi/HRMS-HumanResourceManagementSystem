@@ -1,8 +1,9 @@
-﻿using HRMS.Models.EmployeeDetails;
+﻿using HRMS.Models.Common;
+using HRMS.Models.EmployeeDetails;
 
 namespace HRMS.Models.Payroll
 {
-    public class SalaryProcess
+    public class SalaryProcess : BaseEntity
     {
         public int Id { get; set; }
         public string SalaryCode { get; set; }
